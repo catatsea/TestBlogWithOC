@@ -6,8 +6,8 @@
 //  Copyright © 2015年 ZhangZiang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableViewController.h"
 
-@interface DiscoverTableViewController : UITableViewController
+@interface DiscoverTableViewController : BaseTableViewController
 
 @end

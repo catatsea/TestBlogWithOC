@@ -18,6 +18,8 @@
 		E25C28CD1C1FB3F4005A5818 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28CC1C1FB3F4005A5818 /* DiscoverTableViewController.m */; };
 		E25C28D01C1FB3FF005A5818 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28CF1C1FB3FF005A5818 /* ProfileTableViewController.m */; };
 		E25C28D31C1FB6E2005A5818 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28D21C1FB6E2005A5818 /* BaseTabBar.m */; };
+		E25C28D71C1FD483005A5818 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28D61C1FD483005A5818 /* BaseTableViewController.m */; };
+		E25C28DA1C1FD5CC005A5818 /* VisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28D91C1FD5CC005A5818 /* VisitorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		E25C28CF1C1FB3FF005A5818 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
 		E25C28D11C1FB6E2005A5818 /* BaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
 		E25C28D21C1FB6E2005A5818 /* BaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
+		E25C28D51C1FD483005A5818 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		E25C28D61C1FD483005A5818 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		E25C28D81C1FD5CC005A5818 /* VisitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorView.h; sourceTree = "<group>"; };
+		E25C28D91C1FD5CC005A5818 /* VisitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +205,9 @@
 		E25C28BD1C1FB123005A5818 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E25C28D41C1FD425005A5818 /* VisitorView */,
+				E25C28D51C1FD483005A5818 /* BaseTableViewController.h */,
+				E25C28D61C1FD483005A5818 /* BaseTableViewController.m */,
 				E25C28C21C1FB26D005A5818 /* BaseTabBarController.h */,
 				E25C28C31C1FB26D005A5818 /* BaseTabBarController.m */,
 				E25C28D11C1FB6E2005A5818 /* BaseTabBar.h */,
@@ -237,6 +246,15 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E25C28D41C1FD425005A5818 /* VisitorView */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28D81C1FD5CC005A5818 /* VisitorView.h */,
+				E25C28D91C1FD5CC005A5818 /* VisitorView.m */,
+			);
+			name = VisitorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,11 +386,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25C28CD1C1FB3F4005A5818 /* DiscoverTableViewController.m in Sources */,
+				E25C28D71C1FD483005A5818 /* BaseTableViewController.m in Sources */,
 				E25C28C71C1FB3CB005A5818 /* HomeTableViewController.m in Sources */,
 				E25C28CA1C1FB3E5005A5818 /* MessageTableViewController.m in Sources */,
 				E25C28D01C1FB3FF005A5818 /* ProfileTableViewController.m in Sources */,
 				E25C288A1C1FAEBF005A5818 /* AppDelegate.m in Sources */,
 				E25C28C41C1FB26D005A5818 /* BaseTabBarController.m in Sources */,
+				E25C28DA1C1FD5CC005A5818 /* VisitorView.m in Sources */,
 				E25C28D31C1FB6E2005A5818 /* BaseTabBar.m in Sources */,
 				E25C28871C1FAEBF005A5818 /* main.m in Sources */,
 			);

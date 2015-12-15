@@ -37,7 +37,7 @@
 - (void)setupChildViewControllers:(UITableViewController *)vc title:(NSString *)title imageName:(NSString *)imageName;
 {
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
-    
+    nav.navigationBar.tintColor = [UIColor orangeColor];
     vc.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
     

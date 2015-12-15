@@ -6,8 +6,8 @@
 //  Copyright © 2015年 ZhangZiang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableViewController.h"
 
-@interface HomeTableViewController : UITableViewController
+@interface HomeTableViewController : BaseTableViewController
 
 @end
