@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		E25C28871C1FAEBF005A5818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28861C1FAEBF005A5818 /* main.m */; };
 		E25C288A1C1FAEBF005A5818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28891C1FAEBF005A5818 /* AppDelegate.m */; };
-		E25C288D1C1FAEBF005A5818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C288C1C1FAEBF005A5818 /* ViewController.m */; };
-		E25C28901C1FAEBF005A5818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C288E1C1FAEBF005A5818 /* Main.storyboard */; };
 		E25C28921C1FAEBF005A5818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25C28911C1FAEBF005A5818 /* Assets.xcassets */; };
-		E25C28951C1FAEBF005A5818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C28931C1FAEBF005A5818 /* LaunchScreen.storyboard */; };
 		E25C28A01C1FAEBF005A5818 /* sinablogWithOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C289F1C1FAEBF005A5818 /* sinablogWithOCTests.m */; };
 		E25C28AB1C1FAEBF005A5818 /* sinablogWithOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28AA1C1FAEBF005A5818 /* sinablogWithOCUITests.m */; };
+		E25C28C41C1FB26D005A5818 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28C31C1FB26D005A5818 /* BaseTabBarController.m */; };
+		E25C28C71C1FB3CB005A5818 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28C61C1FB3CB005A5818 /* HomeTableViewController.m */; };
+		E25C28CA1C1FB3E5005A5818 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28C91C1FB3E5005A5818 /* MessageTableViewController.m */; };
+		E25C28CD1C1FB3F4005A5818 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28CC1C1FB3F4005A5818 /* DiscoverTableViewController.m */; };
+		E25C28D01C1FB3FF005A5818 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28CF1C1FB3FF005A5818 /* ProfileTableViewController.m */; };
+		E25C28D31C1FB6E2005A5818 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C28D21C1FB6E2005A5818 /* BaseTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +42,7 @@
 		E25C28861C1FAEBF005A5818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E25C28881C1FAEBF005A5818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E25C28891C1FAEBF005A5818 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E25C288B1C1FAEBF005A5818 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E25C288C1C1FAEBF005A5818 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E25C288F1C1FAEBF005A5818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25C28911C1FAEBF005A5818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E25C28941C1FAEBF005A5818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25C28961C1FAEBF005A5818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25C289B1C1FAEBF005A5818 /* sinablogWithOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sinablogWithOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C289F1C1FAEBF005A5818 /* sinablogWithOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sinablogWithOCTests.m; sourceTree = "<group>"; };
@@ -51,6 +50,18 @@
 		E25C28A61C1FAEBF005A5818 /* sinablogWithOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sinablogWithOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25C28AA1C1FAEBF005A5818 /* sinablogWithOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sinablogWithOCUITests.m; sourceTree = "<group>"; };
 		E25C28AC1C1FAEBF005A5818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25C28C21C1FB26D005A5818 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		E25C28C31C1FB26D005A5818 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		E25C28C51C1FB3CB005A5818 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		E25C28C61C1FB3CB005A5818 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		E25C28C81C1FB3E5005A5818 /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		E25C28C91C1FB3E5005A5818 /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		E25C28CB1C1FB3F4005A5818 /* DiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewController.h; sourceTree = "<group>"; };
+		E25C28CC1C1FB3F4005A5818 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewController.m; sourceTree = "<group>"; };
+		E25C28CE1C1FB3FF005A5818 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		E25C28CF1C1FB3FF005A5818 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+		E25C28D11C1FB6E2005A5818 /* BaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
+		E25C28D21C1FB6E2005A5818 /* BaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +112,10 @@
 		E25C28841C1FAEBF005A5818 /* sinablogWithOC */ = {
 			isa = PBXGroup;
 			children = (
+				E25C28B81C1FB123005A5818 /* Classes */,
 				E25C28881C1FAEBF005A5818 /* AppDelegate.h */,
 				E25C28891C1FAEBF005A5818 /* AppDelegate.m */,
-				E25C288B1C1FAEBF005A5818 /* ViewController.h */,
-				E25C288C1C1FAEBF005A5818 /* ViewController.m */,
-				E25C288E1C1FAEBF005A5818 /* Main.storyboard */,
 				E25C28911C1FAEBF005A5818 /* Assets.xcassets */,
-				E25C28931C1FAEBF005A5818 /* LaunchScreen.storyboard */,
 				E25C28961C1FAEBF005A5818 /* Info.plist */,
 				E25C28851C1FAEBF005A5818 /* Supporting Files */,
 			);
@@ -138,6 +146,97 @@
 				E25C28AC1C1FAEBF005A5818 /* Info.plist */,
 			);
 			path = sinablogWithOCUITests;
+			sourceTree = "<group>";
+		};
+		E25C28B81C1FB123005A5818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28B91C1FB123005A5818 /* Model */,
+				E25C28BA1C1FB123005A5818 /* Module */,
+				E25C28C01C1FB123005A5818 /* Tools */,
+				E25C28C11C1FB123005A5818 /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E25C28B91C1FB123005A5818 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E25C28BA1C1FB123005A5818 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28BD1C1FB123005A5818 /* Main */,
+				E25C28BC1C1FB123005A5818 /* Home */,
+				E25C28BE1C1FB123005A5818 /* Message */,
+				E25C28BB1C1FB123005A5818 /* Discover */,
+				E25C28BF1C1FB123005A5818 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E25C28BB1C1FB123005A5818 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28CB1C1FB3F4005A5818 /* DiscoverTableViewController.h */,
+				E25C28CC1C1FB3F4005A5818 /* DiscoverTableViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		E25C28BC1C1FB123005A5818 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28C51C1FB3CB005A5818 /* HomeTableViewController.h */,
+				E25C28C61C1FB3CB005A5818 /* HomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E25C28BD1C1FB123005A5818 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28C21C1FB26D005A5818 /* BaseTabBarController.h */,
+				E25C28C31C1FB26D005A5818 /* BaseTabBarController.m */,
+				E25C28D11C1FB6E2005A5818 /* BaseTabBar.h */,
+				E25C28D21C1FB6E2005A5818 /* BaseTabBar.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E25C28BE1C1FB123005A5818 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28C81C1FB3E5005A5818 /* MessageTableViewController.h */,
+				E25C28C91C1FB3E5005A5818 /* MessageTableViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E25C28BF1C1FB123005A5818 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				E25C28CE1C1FB3FF005A5818 /* ProfileTableViewController.h */,
+				E25C28CF1C1FB3FF005A5818 /* ProfileTableViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E25C28C01C1FB123005A5818 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E25C28C11C1FB123005A5818 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25C28951C1FAEBF005A5818 /* LaunchScreen.storyboard in Resources */,
 				E25C28921C1FAEBF005A5818 /* Assets.xcassets in Resources */,
-				E25C28901C1FAEBF005A5818 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +367,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25C288D1C1FAEBF005A5818 /* ViewController.m in Sources */,
+				E25C28CD1C1FB3F4005A5818 /* DiscoverTableViewController.m in Sources */,
+				E25C28C71C1FB3CB005A5818 /* HomeTableViewController.m in Sources */,
+				E25C28CA1C1FB3E5005A5818 /* MessageTableViewController.m in Sources */,
+				E25C28D01C1FB3FF005A5818 /* ProfileTableViewController.m in Sources */,
 				E25C288A1C1FAEBF005A5818 /* AppDelegate.m in Sources */,
+				E25C28C41C1FB26D005A5818 /* BaseTabBarController.m in Sources */,
+				E25C28D31C1FB6E2005A5818 /* BaseTabBar.m in Sources */,
 				E25C28871C1FAEBF005A5818 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,25 +408,6 @@
 			targetProxy = E25C28A71C1FAEBF005A5818 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E25C288E1C1FAEBF005A5818 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E25C288F1C1FAEBF005A5818 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E25C28931C1FAEBF005A5818 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E25C28941C1FAEBF005A5818 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E25C28AD1C1FAEBF005A5818 /* Debug */ = {
@@ -411,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = sinablogWithOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = sinablogWithOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

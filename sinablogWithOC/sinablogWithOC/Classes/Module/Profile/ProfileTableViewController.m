@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ProfileTableViewController.m
 //  sinablogWithOC
 //
 //  Created by ZhangZiang on 15/12/15.
 //  Copyright © 2015年 ZhangZiang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ProfileTableViewController.h"
 
-@interface ViewController : UIViewController
-
+@implementation ProfileTableViewController
 
 @end
-
